@@ -10,12 +10,12 @@
 		labels: [
 			'Campaign',
 			'TRift',
-			'TR',
 			'TS',
-			'CR',
-			'AE',
-			'Tower',
+			'TR',
 			'HF',
+			'Tower',
+			'AE',
+			'CR',
 		],
 		datasets: [{
 			label: name,

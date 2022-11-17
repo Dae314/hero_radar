@@ -236,7 +236,7 @@
 			margin: 3px;
 			&.score {
 				font-size: 2.0rem;
-				left: 52%;
+				left: 50.5%;
 				margin: 0;
 				position: absolute;
 				right: 0;
