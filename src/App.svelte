@@ -107,11 +107,15 @@
 				{#if curType === 'f2p'}
 					<h4>{hero.f2p_invest}</h4>
 					<h3 class="score">{hero.getF2PScore()}</h3>
-					<RadarChart data={hero.f2p_chartData} name={hero.name} />
+					{#key hero.name}
+						<RadarChart data={hero.f2p_chartData} name={hero.name} />
+					{/key}
 				{:else}
 					<h4>{hero.p2p_invest}</h4>
 					<h3 class="score">{hero.getP2PScore()}</h3>
-					<RadarChart data={hero.p2p_chartData} name={hero.name} />
+					{#key hero.name}
+						<RadarChart data={hero.p2p_chartData} name={hero.name} />
+					{/key}
 				{/if}
 				<div class="notesArea">
 					<h4>Notes:</h4>
