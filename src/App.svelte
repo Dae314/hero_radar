@@ -1,4 +1,5 @@
 <script>
+	// testing a comment to see if i can edit :)
 	import HeroData from './stores/HeroData.js';
 	import RadarChart from './components/RadarChart.svelte';
 
