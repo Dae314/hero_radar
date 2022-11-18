@@ -244,7 +244,7 @@
 				margin: 0;
 				position: absolute;
 				right: 0;
-				top: 52.8%;
+				top: 53.8%;
 				transform: translate(-50%, 50%);
 				user-select: none;
 				width: fit-content;

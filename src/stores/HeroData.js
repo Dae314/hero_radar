@@ -16,6 +16,7 @@ const HeroData = readable([
 			1, // TS
 			4, // TR
 			3, // HF
+			2, // PVP
 			3, // Tower
 			5, // AE
 			2, // CR
@@ -26,6 +27,7 @@ const HeroData = readable([
 			5, // TS
 			3, // TR
 			1, // HF
+			2, // PVP
 			1, // Tower
 			5, // AE
 			2, // CR
@@ -49,6 +51,7 @@ const HeroData = readable([
 			1, // TS
 			2, // TR
 			4, // HF
+			2, // PVP
 			5, // Tower
 			1, // AE
 			4, // CR
@@ -59,6 +62,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			5, // CR
@@ -82,6 +86,7 @@ const HeroData = readable([
 			5, // TS
 			4, // TR
 			4, // HF
+			2, // PVP
 			3.5, // Tower
 			2, // AE
 			1, // CR
@@ -92,6 +97,7 @@ const HeroData = readable([
 			2, // TS
 			5, // TR
 			3, // HF
+			2, // PVP
 			2, // Tower
 			1, // AE
 			1, // CR
@@ -115,6 +121,7 @@ const HeroData = readable([
 			5, // TS
 			4, // TR
 			1, // HF
+			2, // PVP
 			3, // Tower
 			2, // AE
 			1, // CR
@@ -125,6 +132,7 @@ const HeroData = readable([
 			2, // TS
 			5, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			3, // AE
 			2, // CR
@@ -148,6 +156,7 @@ const HeroData = readable([
 			1, // TS
 			1, // TR
 			3, // HF
+			2, // PVP
 			2, // Tower
 			3, // AE
 			1, // CR
@@ -158,6 +167,7 @@ const HeroData = readable([
 			1, // TS
 			1, // TR
 			2, // HF
+			2, // PVP
 			4, // Tower
 			5, // AE
 			1, // CR
@@ -181,6 +191,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			3, // Tower
 			2, // AE
 			2, // CR
@@ -191,6 +202,7 @@ const HeroData = readable([
 			5, // TS
 			2, // TR
 			3, // HF
+			2, // PVP
 			3, // Tower
 			4, // AE
 			1, // CR
@@ -214,6 +226,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -224,6 +237,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -247,6 +261,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -257,6 +272,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -280,6 +296,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -290,6 +307,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -313,6 +331,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -323,6 +342,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -346,6 +366,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -356,6 +377,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -379,6 +401,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -389,6 +412,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -412,6 +436,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -422,6 +447,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -445,6 +471,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -455,6 +482,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -478,6 +506,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -488,6 +517,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -511,6 +541,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -521,6 +552,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -544,6 +576,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -554,6 +587,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -577,6 +611,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -587,6 +622,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -610,6 +646,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -620,6 +657,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -643,6 +681,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -653,6 +692,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -676,6 +716,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -686,6 +727,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -709,6 +751,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -719,6 +762,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -742,6 +786,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -752,6 +797,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -775,6 +821,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -785,6 +832,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -808,6 +856,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -818,6 +867,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -841,6 +891,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -851,6 +902,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -874,6 +926,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -884,6 +937,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -907,6 +961,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -917,6 +972,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -940,6 +996,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -950,6 +1007,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -973,6 +1031,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -983,6 +1042,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1006,6 +1066,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1016,6 +1077,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1039,6 +1101,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1049,6 +1112,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1072,6 +1136,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1082,6 +1147,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1105,6 +1171,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1115,6 +1182,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1138,6 +1206,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1148,6 +1217,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1171,6 +1241,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1181,6 +1252,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1204,6 +1276,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1214,6 +1287,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1237,6 +1311,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1247,6 +1322,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1270,6 +1346,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1280,6 +1357,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1303,6 +1381,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1313,6 +1392,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1336,6 +1416,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1346,6 +1427,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1369,6 +1451,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1379,6 +1462,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1402,6 +1486,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1412,6 +1497,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1435,6 +1521,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1445,6 +1532,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1468,6 +1556,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1478,6 +1567,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1501,6 +1591,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1511,6 +1602,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1534,6 +1626,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1544,6 +1637,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1567,6 +1661,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1577,6 +1672,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1600,6 +1696,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1610,6 +1707,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1633,6 +1731,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1643,6 +1742,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1666,6 +1766,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1676,6 +1777,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1699,6 +1801,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1709,6 +1812,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1732,6 +1836,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1742,6 +1847,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1765,6 +1871,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1775,6 +1882,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1798,6 +1906,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1808,6 +1917,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1831,6 +1941,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1841,6 +1952,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1864,6 +1976,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1874,6 +1987,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1897,6 +2011,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1907,6 +2022,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1930,6 +2046,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1940,6 +2057,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1963,6 +2081,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -1973,6 +2092,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -1996,6 +2116,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2006,6 +2127,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2029,6 +2151,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2039,6 +2162,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2062,6 +2186,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2072,6 +2197,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2095,6 +2221,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2105,6 +2232,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2128,6 +2256,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2138,6 +2267,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2161,6 +2291,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2171,6 +2302,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2194,6 +2326,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2204,6 +2337,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2227,6 +2361,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2237,6 +2372,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2260,6 +2396,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2270,6 +2407,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2293,6 +2431,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2303,6 +2442,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2326,6 +2466,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2336,6 +2477,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2359,6 +2501,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2369,6 +2512,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2392,6 +2536,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2402,6 +2547,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2425,6 +2571,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2435,6 +2582,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2458,6 +2606,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2468,6 +2617,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2491,6 +2641,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2501,6 +2652,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2524,6 +2676,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2534,6 +2687,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2557,6 +2711,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2567,6 +2722,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2590,6 +2746,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2600,6 +2757,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2623,6 +2781,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2633,6 +2792,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2656,6 +2816,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2666,6 +2827,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2689,6 +2851,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2699,6 +2862,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2722,6 +2886,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2732,6 +2897,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2755,6 +2921,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2765,6 +2932,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2788,6 +2956,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2798,6 +2967,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2821,6 +2991,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2831,6 +3002,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2854,6 +3026,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2864,6 +3037,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2887,6 +3061,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2897,6 +3072,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2920,6 +3096,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2930,6 +3107,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2953,6 +3131,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2963,6 +3142,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -2986,6 +3166,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -2996,6 +3177,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3019,6 +3201,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3029,6 +3212,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3052,6 +3236,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3062,6 +3247,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3085,6 +3271,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3095,6 +3282,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3118,6 +3306,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3128,6 +3317,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3151,6 +3341,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3161,6 +3352,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3184,6 +3376,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3194,6 +3387,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3217,6 +3411,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3227,6 +3422,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3250,6 +3446,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3260,6 +3457,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3283,6 +3481,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3293,6 +3492,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3316,6 +3516,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3326,6 +3527,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3349,6 +3551,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3359,6 +3562,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3382,6 +3586,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3392,6 +3597,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3415,6 +3621,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3425,6 +3632,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3448,6 +3656,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3458,6 +3667,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3481,6 +3691,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3491,6 +3702,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3514,6 +3726,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3524,6 +3737,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3547,6 +3761,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3557,6 +3772,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3580,6 +3796,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3590,6 +3807,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3613,6 +3831,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			0, // HF
+			0, // PVP
 			0, // Tower
 			0, // AE
 			0, // CR
@@ -3623,6 +3842,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			0, // HF
+			0, // PVP
 			0, // Tower
 			0, // AE
 			0, // CR
@@ -3646,6 +3866,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3656,6 +3877,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3679,6 +3901,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3689,6 +3912,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3712,6 +3936,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3722,6 +3947,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3745,6 +3971,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3755,6 +3982,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3778,6 +4006,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3788,6 +4017,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3811,6 +4041,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3821,6 +4052,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3844,6 +4076,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3854,6 +4087,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3877,6 +4111,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3887,6 +4122,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3910,6 +4146,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3920,6 +4157,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3943,6 +4181,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3953,6 +4192,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -3976,6 +4216,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -3986,6 +4227,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
@@ -4009,6 +4251,7 @@ const HeroData = readable([
 			3, // TS
 			3, // TR
 			4, // HF
+			2, // PVP
 			1, // Tower
 			2, // AE
 			5, // CR
@@ -4019,6 +4262,7 @@ const HeroData = readable([
 			5, // TS
 			5, // TR
 			2, // HF
+			2, // PVP
 			1, // Tower
 			1, // AE
 			3, // CR
