@@ -1401,6 +1401,41 @@ const HeroData = readable([
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		notes: 'example notes',
 	},
+	{ id: 'salaki',
+		name: 'Salaki',
+		portrait: './img/portraits/salaki.jpg',
+		class: 'Warrior',
+		faction: 'Mauler',
+		type: 'Strength',
+		tier: 'ascended',
+		f2p_invest: '309e30',
+		p2p_invest: '309e60',
+		f2p_chartData: [
+			1, // Campaign
+			5, // TRift
+			3, // TS
+			3, // TR
+			4, // HF
+			2, // PVP
+			1, // Tower
+			2, // AE
+			5, // CR
+		],
+		p2p_chartData: [
+			2, // Campaign
+			3, // TRift
+			5, // TS
+			5, // TR
+			2, // HF
+			2, // PVP
+			1, // Tower
+			1, // AE
+			3, // CR
+		],
+		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
+		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
+		notes: 'example notes',
+	},
 	{ id: 'nemora',
 		name: 'Nemora',
 		portrait: './img/portraits/nemora.jpg',
