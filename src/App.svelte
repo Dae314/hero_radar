@@ -14,7 +14,7 @@
 		{ name: 'Dimensional', icon: './img/factions/dimensional.png' },
 	];
 
-	const version = 'v1.102';
+	const version = 'v1.103';
 	let curView = 'All';
 	let curType = 'f2p';
 	let curSort = 'name';
