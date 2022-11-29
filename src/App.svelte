@@ -128,7 +128,7 @@
 		<h2>Made by:</h2>
 		<ul>
 			<li>Dae314</li>
-			<li>Xenon</li>
+			<li>Yon</li>
 			<li>JHawks</li>
 		</ul>
 	</div>
