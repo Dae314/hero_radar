@@ -8,18 +8,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '203e30',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			4, // Campaign
-			2, // TRift
+			0, // Campaign
+			0, // TRift
 			1, // TS
-			4, // TR
-			3, // HF
-			2, // PVP
-			3, // Tower
-			5, // AE
-			2, // CR
+			0, // TR
+			1, // HF
+			1, // PVP
+			2, // Tower
+			0, // AE
+			3, // CR
 		],
 		p2p_chartData: [
 			1, // Campaign
@@ -43,18 +43,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			1, // TRift
-			1, // TS
-			2, // TR
-			4, // HF
-			2, // PVP
-			5, // Tower
-			1, // AE
-			4, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			1, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			3, // Campaign
@@ -78,18 +78,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '103e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			5, // TS
-			4, // TR
-			4, // HF
-			2, // PVP
-			3.5, // Tower
-			2, // AE
-			1, // CR
+			2, // Campaign
+			0, // TRift
+			0, // TS
+			3, // TR
+			2, // HF
+			1, // PVP
+			3, // Tower
+			1, // AE
+			4, // CR
 		],
 		p2p_chartData: [
 			1.5, // Campaign
@@ -113,18 +113,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '203e33',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			2, // Campaign
-			2, // TRift
-			5, // TS
-			4, // TR
-			1, // HF
-			2, // PVP
+			5, // Campaign
+			0, // TRift
+			0, // TS
+			2, // TR
+			2, // HF
+			1, // PVP
 			3, // Tower
-			2, // AE
-			1, // CR
+			0, // AE
+			4, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
@@ -148,18 +148,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			2, // Campaign
-			1, // TRift
-			1, // TS
-			1, // TR
-			3, // HF
-			2, // PVP
-			2, // Tower
-			3, // AE
-			1, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			1, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
@@ -183,18 +183,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			2, // Campaign
-			1, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			3, // Tower
-			2, // AE
-			2, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			1, // Campaign
@@ -218,18 +218,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			2, // AE
-			5, // CR
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -253,18 +253,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			2, // AE
-			5, // CR
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -288,18 +288,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '300e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
+			5, // Campaign
+			0, // TRift
+			1, // TS
 			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			3, // HF
+			1, // PVP
+			4, // Tower
+			1, // AE
+			3, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -323,18 +323,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '253e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -358,18 +358,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -393,18 +393,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '009e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			1, // TR
+			1, // HF
+			0, // PVP
+			2, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -428,18 +428,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -463,18 +463,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -498,18 +498,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
 			1, // Tower
-			2, // AE
-			5, // CR
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -533,18 +533,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -568,18 +568,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -603,17 +603,17 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '309e38',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
+			4, // Campaign
 			5, // TRift
 			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
+			5, // TR
+			5, // HF
+			3, // PVP
+			5, // Tower
+			0, // AE
 			5, // CR
 		],
 		p2p_chartData: [
@@ -638,18 +638,18 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '309e60',
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			1, // Campaign
-			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			2, // TRift
+			5, // TS
+			0, // TR
+			5, // HF
+			5, // PVP
+			5, // Tower
+			4, // AE
+			2, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
@@ -676,15 +676,15 @@ const HeroData = readable([
 		f2p_invest: '309e30',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
+			0, // Campaign
 			5, // TRift
-			3, // TS
-			3, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			2, // AE
-			5, // CR
+			0, // TS
+			0, // TR
+			3, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			2, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
