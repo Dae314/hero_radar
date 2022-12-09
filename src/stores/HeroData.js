@@ -22,15 +22,15 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
-			4, // TRift
-			5, // TS
-			3, // TR
+			0, // Campaign
+			0, // TRift
+			1, // TS
+			0, // TR
 			1, // HF
-			2, // PVP
-			1, // Tower
-			5, // AE
-			2, // CR
+			1, // PVP
+			2, // Tower
+			0, // AE
+			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -57,15 +57,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
-			4, // TRift
-			3, // TS
-			3, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			5, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -92,15 +92,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			1.5, // Campaign
-			2, // TRift
-			2, // TS
-			5, // TR
-			3, // HF
-			2, // PVP
-			2, // Tower
+			2, // Campaign
+			0, // TRift
+			0, // TS
+			3, // TR
+			2, // HF
+			1, // PVP
+			3, // Tower
 			1, // AE
-			1, // CR
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -114,7 +114,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '203e33',
-		p2p_invest: '309e60',
+		p2p_invest: '309e68',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -128,14 +128,14 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			5, // Campaign
-			2, // TRift
-			2, // TS
-			5, // TR
-			4, // HF
-			2, // PVP
-			1, // Tower
-			3, // AE
-			2, // CR
+			0, // TRift
+			0, // TS
+			2, // TR
+			2, // HF
+			1, // PVP
+			3, // Tower
+			0, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -149,7 +149,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -162,15 +162,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			5, // Campaign
-			2, // TRift
-			1, // TS
-			1, // TR
-			2, // HF
-			2, // PVP
-			4, // Tower
-			5, // AE
-			1, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			1, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -184,7 +184,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -197,15 +197,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
-			1, // TRift
-			5, // TS
-			2, // TR
-			3, // HF
-			2, // PVP
-			3, // Tower
-			4, // AE
-			1, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -219,7 +219,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -232,15 +232,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -267,15 +267,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -289,7 +289,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '300e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -302,13 +302,13 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
+			5, // Campaign
+			0, // TRift
+			1, // TS
+			3, // TR
+			3, // HF
+			1, // PVP
+			4, // Tower
 			1, // AE
 			3, // CR
 		],
@@ -324,7 +324,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '253e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -337,15 +337,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -359,7 +359,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -372,15 +372,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -394,7 +394,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '009e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -407,15 +407,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			1, // TR
+			1, // HF
+			0, // PVP
+			2, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -429,7 +429,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '200e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -442,15 +442,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -464,7 +464,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '009e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -477,15 +477,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -499,7 +499,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -512,15 +512,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -534,7 +534,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '200e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -547,15 +547,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -569,7 +569,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '259e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -582,15 +582,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -604,7 +604,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e38',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			4, // Campaign
 			5, // TRift
@@ -617,15 +617,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
+			4, // Campaign
+			5, // TRift
+			3, // TS
 			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // HF
+			3, // PVP
+			5, // Tower
+			0, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -639,7 +639,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			1, // Campaign
 			2, // TRift
@@ -652,15 +652,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
+			1, // Campaign
+			2, // TRift
 			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // TR
+			5, // HF
+			5, // PVP
+			5, // Tower
+			4, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -687,15 +687,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			5, // TRift
+			0, // TS
+			0, // TR
+			3, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -722,13 +722,13 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
+			1, // Campaign
+			1, // TRift
+			0, // TS
+			3, // TR
+			3, // HF
+			1, // PVP
+			3, // Tower
 			1, // AE
 			3, // CR
 		],
@@ -744,7 +744,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '203e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
 			3, // Campaign
 			0, // TRift
@@ -757,15 +757,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			3, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -779,7 +779,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -792,15 +792,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -814,7 +814,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -827,15 +827,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -862,15 +862,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			1, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -884,7 +884,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -897,15 +897,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			3, // TR
+			1, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -919,7 +919,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '209e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			2, // TRift
@@ -932,15 +932,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
+			0, // Campaign
+			2, // TRift
+			3, // TS
+			0, // TR
+			1, // HF
+			3, // PVP
+			3, // Tower
 			1, // AE
-			3, // CR
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -954,7 +954,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e41',
 		f2p_chartData: [
 			1, // Campaign
 			0, // TRift
@@ -967,15 +967,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -989,7 +989,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1002,15 +1002,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1024,7 +1024,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '309e41',
-		p2p_invest: '309e60',
+		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1037,15 +1037,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			3, // HF
+			0, // PVP
+			4, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1059,7 +1059,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '203e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1072,15 +1072,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
+			2, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1094,7 +1094,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '303e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -1107,15 +1107,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			5, // Campaign
+			0, // TRift
+			3, // TS
+			1, // TR
+			1, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1129,7 +1129,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1142,15 +1142,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1177,15 +1177,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			3, // HF
+			0, // PVP
+			3, // Tower
 			1, // AE
-			3, // CR
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1212,15 +1212,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
+			3, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
 			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // PVP
+			5, // Tower
+			0, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1234,7 +1234,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '209e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1247,15 +1247,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1269,7 +1269,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '300e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e0',
 		f2p_chartData: [
 			2, // Campaign
 			0, // TRift
@@ -1283,14 +1283,14 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1304,7 +1304,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '009e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1317,15 +1317,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			2, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1352,15 +1352,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1374,7 +1374,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e44',
-		p2p_invest: '309e60',
+		p2p_invest: '309e68',
 		f2p_chartData: [
 			1, // Campaign
 			5, // TRift
@@ -1387,15 +1387,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // Campaign
+			5, // TRift
+			0, // TS
+			0, // TR
+			4, // HF
+			0, // PVP
+			4, // Tower
+			3, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1409,7 +1409,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			2, // Campaign
 			2, // TRift
@@ -1423,14 +1423,14 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			2, // TRift
+			3, // TS
+			0, // TR
+			5, // HF
+			4, // PVP
+			5, // Tower
+			3, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1444,7 +1444,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '000e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1457,15 +1457,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1479,7 +1479,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '159e0',
-		p2p_invest: '309e60',
+		p2p_invest: '109e0',
 		f2p_chartData: [
 			4, // Campaign
 			0, // TRift
@@ -1492,15 +1492,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			4, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1514,7 +1514,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1527,15 +1527,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1562,15 +1562,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			1, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1584,7 +1584,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '200e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1597,15 +1597,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1619,7 +1619,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '203e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1632,15 +1632,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1667,15 +1667,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
+			4, // Campaign
+			0, // TRift
+			3, // TS
+			0, // TR
+			3, // HF
+			3, // PVP
+			4, // Tower
 			1, // AE
-			3, // CR
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1689,7 +1689,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '109e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e33',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1702,15 +1702,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1724,7 +1724,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '200e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1737,15 +1737,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1759,7 +1759,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -1772,15 +1772,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
+			5, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
 			2, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			2, // Tower
+			3, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1794,7 +1794,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '200e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1807,15 +1807,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1829,7 +1829,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1842,15 +1842,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			3, // TR
+			1, // HF
+			0, // PVP
+			4, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1864,7 +1864,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '203e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			4, // Campaign
 			0, // TRift
@@ -1877,15 +1877,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			4, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1899,7 +1899,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -1912,15 +1912,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1947,15 +1947,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			0, // TRift
+			2, // TS
+			0, // TR
+			3, // HF
+			0, // PVP
+			5, // Tower
+			0, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -1969,7 +1969,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '209e60',
-		p2p_invest: '309e60',
+		p2p_invest: '309e62',
 		f2p_chartData: [
 			5, // Campaign
 			5, // TRift
@@ -1982,15 +1982,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			5, // TRift
+			3, // TS
+			2, // TR
+			5, // HF
+			3, // PVP
+			5, // Tower
+			5, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2017,15 +2017,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			0, // Campaign
+			4, // TRift
+			3, // TS
+			0, // TR
+			3, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Tower
+			0, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2052,15 +2052,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			2, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
 			1, // AE
-			3, // CR
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2074,7 +2074,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '309e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e68',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -2087,15 +2087,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			1, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2109,7 +2109,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			2, // Campaign
 			5, // TRift
@@ -2123,14 +2123,14 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			2, // Campaign
-			3, // TRift
-			5, // TS
+			5, // TRift
+			3, // TS
 			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // HF
+			3, // PVP
+			5, // Tower
+			4, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2144,7 +2144,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '309e62',
 		f2p_chartData: [
 			3, // Campaign
 			3, // TRift
@@ -2157,14 +2157,14 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			3, // TRift
-			5, // TS
-			5, // TR
+			3, // TS
+			0, // TR
 			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
+			3, // PVP
+			3, // Tower
+			2, // AE
 			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2179,7 +2179,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '209e41',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			5, // Campaign
 			5, // TRift
@@ -2192,15 +2192,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
+			5, // Campaign
+			5, // TRift
 			5, // TS
 			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // HF
+			5, // PVP
+			5, // Tower
+			5, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2214,7 +2214,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '203e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -2227,15 +2227,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			1, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2249,7 +2249,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e41',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			5, // Campaign
 			5, // TRift
@@ -2262,15 +2262,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
+			5, // Campaign
+			5, // TRift
 			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // TR
+			5, // HF
+			5, // PVP
+			5, // Tower
+			0, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2284,7 +2284,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -2297,15 +2297,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2319,7 +2319,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '209e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			4, // Campaign
 			0, // TRift
@@ -2332,15 +2332,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			4, // Campaign
+			0, // TRift
+			2, // TS
+			0, // TR
+			1, // HF
+			3, // PVP
+			3, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2354,7 +2354,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e11',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -2367,15 +2367,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			0, // TRift
+			1, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
+			5, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2389,7 +2389,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
 			3, // Campaign
 			0, // TRift
@@ -2402,15 +2402,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2424,7 +2424,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '150e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e0',
 		f2p_chartData: [
 			1, // Campaign
 			0, // TRift
@@ -2437,15 +2437,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			1, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2472,15 +2472,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			2, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2494,9 +2494,9 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '303e41',
-		p2p_invest: '309e60',
+		p2p_invest: '309e41',
 		f2p_chartData: [
-			2, // Campaign
+			0, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -2507,15 +2507,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			3, // HF
+			0, // PVP
+			4, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2529,7 +2529,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e38',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -2542,14 +2542,14 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
 			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2564,7 +2564,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e30',
-		p2p_invest: '309e60',
+		p2p_invest: '309e61',
 		f2p_chartData: [
 			3, // Campaign
 			2, // TRift
@@ -2577,15 +2577,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Campaign
+			2, // TRift
+			0, // TS
+			0, // TR
+			5, // HF
+			0, // PVP
+			3, // Tower
+			2, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2612,15 +2612,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			1, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2647,15 +2647,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			4, // TRift
+			4, // TS
+			3, // TR
+			3, // HF
+			3, // PVP
+			5, // Tower
+			2, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2682,15 +2682,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			1, // Campaign
 			3, // TRift
-			5, // TS
-			5, // TR
+			1, // TS
+			0, // TR
 			2, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2704,7 +2704,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '209e33',
-		p2p_invest: '309e60',
+		p2p_invest: '309e61',
 		f2p_chartData: [
 			2, // Campaign
 			3, // TRift
@@ -2719,13 +2719,13 @@ const HeroData = readable([
 		p2p_chartData: [
 			2, // Campaign
 			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // TS
+			4, // TR
+			3, // HF
+			1, // PVP
+			2, // Tower
+			5, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2752,15 +2752,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2787,15 +2787,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2822,15 +2822,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			0, // Campaign
+			0, // TRift
+			1, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2844,7 +2844,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			1, // Campaign
 			1, // TRift
@@ -2857,15 +2857,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
+			1, // Campaign
+			1, // TRift
+			3, // TS
 			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // HF
+			3, // PVP
+			5, // Tower
+			2, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2892,15 +2892,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
+			1, // Campaign
+			0, // TRift
+			4, // TS
+			0, // TR
 			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			4, // PVP
+			5, // Tower
+			3, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2927,14 +2927,14 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
+			0, // Campaign
+			0, // TRift
+			3, // TS
 			5, // TR
-			2, // HF
-			2, // PVP
+			3, // HF
+			3, // PVP
 			1, // Tower
-			1, // AE
+			5, // AE
 			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2962,15 +2962,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			1, // Campaign
+			0, // TRift
+			2, // TS
+			0, // TR
+			0, // HF
 			2, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -2997,15 +2997,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			2, // Tower
+			0, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3019,7 +3019,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '309e38',
-		p2p_invest: '309e60',
+		p2p_invest: '309e87',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -3032,15 +3032,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			0, // Campaign
+			0, // TRift
+			2, // TS
+			1, // TR
+			0, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Tower
+			0, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3054,7 +3054,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -3067,15 +3067,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			2, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3102,15 +3102,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // Campaign
+			0, // TRift
+			3, // TS
+			0, // TR
+			0, // HF
+			3, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3124,7 +3124,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '309e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -3137,15 +3137,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			0, // TRift
+			4, // TS
+			0, // TR
+			0, // HF
+			4, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3172,15 +3172,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			4, // Tower
+			0, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3194,7 +3194,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -3207,15 +3207,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3229,7 +3229,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '309e61',
 		f2p_chartData: [
 			3, // Campaign
 			1, // TRift
@@ -3242,15 +3242,15 @@ const HeroData = readable([
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Campaign
+			1, // TRift
+			3, // TS
+			3, // TR
+			3, // HF
+			3, // PVP
+			3, // Tower
+			3, // AE
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3264,7 +3264,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			1, // Campaign
 			5, // TRift
@@ -3277,15 +3277,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // Campaign
+			5, // TRift
+			1, // TS
+			2, // TR
+			0, // HF
+			1, // PVP
+			5, // Tower
+			0, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3312,15 +3312,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			3, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3347,15 +3347,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3369,7 +3369,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '309e30',
-		p2p_invest: '309e60',
+		p2p_invest: '309e62',
 		f2p_chartData: [
 			3, // Campaign
 			0, // TRift
@@ -3382,15 +3382,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			3, // Campaign
+			0, // TRift
+			2, // TS
+			2, // TR
+			0, // HF
 			2, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3404,7 +3404,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '300e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -3417,15 +3417,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			5, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3439,7 +3439,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '303e41',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			4, // Campaign
 			0, // TRift
@@ -3452,15 +3452,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
+			4, // Campaign
+			0, // TRift
+			2, // TS
+			0, // TR
+			5, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Tower
+			5, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3474,7 +3474,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '300e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -3487,15 +3487,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			5, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3522,15 +3522,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3544,7 +3544,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -3557,15 +3557,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
+			5, // Campaign
+			0, // TRift
+			4, // TS
+			2, // TR
 			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // PVP
+			5, // Tower
+			3, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3579,7 +3579,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e61',
 		f2p_chartData: [
 			4, // Campaign
 			4, // TRift
@@ -3592,15 +3592,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			4, // Campaign
+			4, // TRift
+			0, // TS
+			4, // TR
+			3, // HF
+			0, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			3, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3614,7 +3614,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -3627,15 +3627,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3662,15 +3662,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3697,15 +3697,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3719,7 +3719,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e60',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			3, // Campaign
 			0, // TRift
@@ -3732,15 +3732,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			3, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			3, // HF
+			3, // PVP
+			5, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3767,15 +3767,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3802,15 +3802,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3824,7 +3824,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '303e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			3, // Campaign
 			3, // TRift
@@ -3837,15 +3837,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
+			1, // TS
+			0, // TR
+			0, // HF
+			1, // PVP
 			1, // Tower
-			1, // AE
-			3, // CR
+			2, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3859,7 +3859,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
@@ -3872,15 +3872,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3894,7 +3894,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '000e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e30',
 		f2p_chartData: [
 			2, // Campaign
 			0, // TRift
@@ -3907,7 +3907,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			0, // Campaign
+			2, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -3929,7 +3929,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '209e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e67',
 		f2p_chartData: [
 			3, // Campaign
 			0, // TRift
@@ -3942,15 +3942,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
+			3, // Campaign
+			0, // TRift
 			5, // TS
-			5, // TR
+			0, // TR
 			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -3964,7 +3964,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '309e41',
-		p2p_invest: '309e60',
+		p2p_invest: '3536e87',
 		f2p_chartData: [
 			2, // Campaign
 			5, // TRift
@@ -3978,14 +3978,14 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			2, // Campaign
-			3, // TRift
+			5, // TRift
 			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // TR
+			5, // HF
+			5, // PVP
+			3, // Tower
+			3, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4013,14 +4013,14 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			2, // Campaign
-			3, // TRift
+			5, // TRift
 			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // TR
+			5, // HF
+			5, // PVP
+			3, // Tower
+			3, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4034,9 +4034,9 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '200e0',
-		p2p_invest: '309e60',
+		p2p_invest: '209e0',
 		f2p_chartData: [
-			1, // Campaign
+			0, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -4047,15 +4047,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4069,7 +4069,7 @@ const HeroData = readable([
 		type: 'Strength',
 		tier: 'ascended',
 		f2p_invest: '209e33',
-		p2p_invest: '309e60',
+		p2p_invest: '309e36',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -4082,15 +4082,15 @@ const HeroData = readable([
 			2, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // Campaign
+			0, // TRift
+			1, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			3, // Tower
+			3, // AE
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4104,7 +4104,7 @@ const HeroData = readable([
 		type: 'Agility',
 		tier: 'ascended',
 		f2p_invest: '203e0',
-		p2p_invest: '309e60',
+		p2p_invest: '309e30',
 		f2p_chartData: [
 			1, // Campaign
 			0, // TRift
@@ -4117,15 +4117,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			1, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			1, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4152,15 +4152,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			1, // Campaign
 			3, // TRift
-			5, // TS
-			5, // TR
+			3, // TS
+			0, // TR
 			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			5, // PVP
+			2, // Tower
+			3, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4174,7 +4174,7 @@ const HeroData = readable([
 		type: 'Intelligence',
 		tier: 'ascended',
 		f2p_invest: '209e36',
-		p2p_invest: '309e60',
+		p2p_invest: '309e62',
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
@@ -4187,15 +4187,15 @@ const HeroData = readable([
 			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
+			5, // Campaign
+			0, // TRift
+			2, // TS
+			0, // TR
 			2, // HF
 			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			2, // Tower
+			0, // AE
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4222,15 +4222,15 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4257,14 +4257,14 @@ const HeroData = readable([
 			3, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
+			0, // Campaign
+			4, // TRift
+			4, // TS
+			0, // TR
+			0, // HF
+			3, // PVP
+			0, // Tower
+			0, // AE
 			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4292,15 +4292,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			3, // TS
+			0, // TR
+			0, // HF
+			3, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
@@ -4327,15 +4327,15 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
-			3, // TRift
-			5, // TS
-			5, // TR
-			2, // HF
-			2, // PVP
-			1, // Tower
-			1, // AE
-			3, // CR
+			0, // Campaign
+			0, // TRift
+			0, // TS
+			0, // TR
+			0, // HF
+			0, // PVP
+			0, // Tower
+			0, // AE
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
