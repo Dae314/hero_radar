@@ -12,10 +12,7 @@
 			'TRift',
 			'TS',
 			'TR',
-			'HF',
-			'PVP',
 			'Tower',
-			'AE',
 			'CR',
 		],
 		datasets: [{

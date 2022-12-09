@@ -241,10 +241,10 @@
 			margin: 3px;
 			&.score {
 				font-size: 2.0rem;
-				left: 49.82%;
+				left: 51%;
 				margin: 0;
 				position: absolute;
-				top: 53.5%;
+				top: 53%;
 				transform: translate(-50%, 50%);
 				user-select: none;
 				width: fit-content;
