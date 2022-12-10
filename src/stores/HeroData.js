@@ -14,7 +14,7 @@ const HeroData = readable([
 			0, // Campaign
 			0, // TRift
 			1, // TS
-			0, // TR
+			2, // TR
 			2, // Tower
 			3, // CR
 		],
@@ -22,13 +22,13 @@ const HeroData = readable([
 			0, // Campaign
 			0, // TRift
 			1, // TS
-			0, // TR
+			2, // TR
 			2, // Tower
 			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'belinda',
 		name: 'Belinda',
@@ -45,7 +45,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			0, // CR
+			1, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
@@ -53,11 +53,11 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			0, // CR
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'raine',
 		name: 'Raine',
@@ -70,23 +70,23 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			2, // Campaign
-			0, // TRift
-			0, // TS
+			2, // TRift
+			4, // TS
 			3, // TR
 			3, // Tower
 			4, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
-			0, // TRift
-			0, // TS
+			2, // TRift
+			4, // TS
 			3, // TR
 			3, // Tower
 			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'rosaline',
 		name: 'Rosaline',
@@ -99,23 +99,23 @@ const HeroData = readable([
 		p2p_invest: '309e68',
 		f2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			0, // TS
+			2, // TRift
+			1, // TS
 			2, // TR
 			3, // Tower
 			4, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			0, // TS
+			2, // TRift
+			1, // TS
 			2, // TR
 			3, // Tower
 			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'lucius',
 		name: 'Lucius',
@@ -128,7 +128,7 @@ const HeroData = readable([
 		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
 			1, // Tower
@@ -136,7 +136,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
 			1, // Tower
@@ -144,7 +144,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'thane',
 		name: 'Thane',
@@ -173,7 +173,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'fawkes',
 		name: 'Fawkes',
@@ -202,7 +202,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'hendrik',
 		name: 'Hendrik',
@@ -214,7 +214,7 @@ const HeroData = readable([
 		f2p_invest: '000e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			0, // Campaign
+			1, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -222,7 +222,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			0, // Campaign
+			1, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -231,7 +231,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'rowan',
 		name: 'Rowan',
@@ -244,23 +244,23 @@ const HeroData = readable([
 		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			1, // TS
+			5, // TRift
+			5, // TS
 			3, // TR
 			4, // Tower
-			3, // CR
+			2, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			1, // TS
+			5, // TRift
+			5, // TS
 			3, // TR
 			4, // Tower
-			3, // CR
+			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'gwyneth',
 		name: 'Gwyneth',
@@ -273,23 +273,23 @@ const HeroData = readable([
 		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
 			3, // Tower
-			0, // CR
+			1, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
 			3, // Tower
-			0, // CR
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'rigby',
 		name: 'Rigby',
@@ -318,7 +318,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'cecilia',
 		name: 'Cecilia',
@@ -347,7 +347,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'oscar',
 		name: 'Oscar',
@@ -376,7 +376,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'eluard',
 		name: 'Eluard',
@@ -405,7 +405,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'peggy',
 		name: 'Peggy',
@@ -418,7 +418,7 @@ const HeroData = readable([
 		p2p_invest: '309e0',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
 			1, // Tower
@@ -426,7 +426,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
 			1, // Tower
@@ -434,7 +434,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'walker',
 		name: 'Walker',
@@ -463,7 +463,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'morrow',
 		name: 'Morrow',
@@ -475,7 +475,7 @@ const HeroData = readable([
 		f2p_invest: '000e0',
 		p2p_invest: '259e30',
 		f2p_chartData: [
-			0, // Campaign
+			1, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -483,7 +483,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			0, // Campaign
+			1, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -492,7 +492,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'scarlet',
 		name: 'Scarlet',
@@ -501,12 +501,12 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e38',
+		f2p_invest: '309e44',
 		p2p_invest: '309e67',
 		f2p_chartData: [
 			4, // Campaign
 			5, // TRift
-			3, // TS
+			5, // TS
 			5, // TR
 			5, // Tower
 			5, // CR
@@ -514,14 +514,14 @@ const HeroData = readable([
 		p2p_chartData: [
 			4, // Campaign
 			5, // TRift
-			3, // TS
+			5, // TS
 			5, // TR
 			5, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'thane_aw',
 		name: 'Thane (Awakened)',
@@ -534,7 +534,7 @@ const HeroData = readable([
 		p2p_invest: '3536e87',
 		f2p_chartData: [
 			1, // Campaign
-			2, // TRift
+			5, // TRift
 			5, // TS
 			0, // TR
 			5, // Tower
@@ -542,7 +542,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			1, // Campaign
-			2, // TRift
+			5, // TRift
 			5, // TS
 			0, // TR
 			5, // Tower
@@ -550,7 +550,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'sonja',
 		name: 'Sonja',
@@ -559,12 +559,12 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '309e30',
+		f2p_invest: '203e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
 			5, // TRift
-			0, // TS
+			3, // TS
 			0, // TR
 			3, // Tower
 			2, // CR
@@ -572,14 +572,14 @@ const HeroData = readable([
 		p2p_chartData: [
 			0, // Campaign
 			5, // TRift
-			0, // TS
+			3, // TS
 			0, // TR
 			3, // Tower
 			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'palmer',
 		name: 'Palmer',
@@ -608,7 +608,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'Not fully tested.',
 	},
 	{ id: 'brutus',
 		name: 'Brutus',
@@ -620,7 +620,7 @@ const HeroData = readable([
 		f2p_invest: '203e0',
 		p2p_invest: '209e0',
 		f2p_chartData: [
-			3, // Campaign
+			5, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -628,7 +628,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
+			5, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -637,7 +637,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'khasos',
 		name: 'Khasos',
@@ -666,7 +666,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'vurk',
 		name: 'Vurk',
@@ -695,7 +695,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'numisu',
 		name: 'Numisu',
@@ -708,23 +708,23 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			1, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
-			1, // Tower
+			2, // Tower
 			0, // CR
 		],
 		p2p_chartData: [
 			1, // Campaign
-			0, // TRift
+			1, // TRift
 			0, // TS
 			0, // TR
-			1, // Tower
+			2, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'warek',
 		name: 'Warek',
@@ -737,7 +737,7 @@ const HeroData = readable([
 		p2p_invest: '309e30',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			3, // TR
 			1, // Tower
@@ -745,7 +745,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			3, // TR
 			1, // Tower
@@ -753,7 +753,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'skreg',
 		name: 'Skreg',
@@ -765,7 +765,7 @@ const HeroData = readable([
 		f2p_invest: '209e0',
 		p2p_invest: '309e30',
 		f2p_chartData: [
-			0, // Campaign
+			1, // Campaign
 			2, // TRift
 			3, // TS
 			0, // TR
@@ -773,7 +773,7 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			0, // Campaign
+			1, // Campaign
 			2, // TRift
 			3, // TS
 			0, // TR
@@ -782,7 +782,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'safiya',
 		name: 'Safiya',
@@ -811,7 +811,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'satrana',
 		name: 'Satrana',
@@ -820,7 +820,7 @@ const HeroData = readable([
 		faction: 'Mauler',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '200e0',
+		f2p_invest: '000e0',
 		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
@@ -828,7 +828,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			1, // CR
+			0, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
@@ -836,11 +836,11 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			1, // CR
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'antandra',
 		name: 'Antandra',
@@ -853,7 +853,7 @@ const HeroData = readable([
 		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			4, // Tower
@@ -861,7 +861,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			4, // Tower
@@ -869,7 +869,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'tidus',
 		name: 'Tidus',
@@ -898,7 +898,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'skriath',
 		name: 'Skriath',
@@ -927,7 +927,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'anoki',
 		name: 'Anoki',
@@ -940,7 +940,7 @@ const HeroData = readable([
 		p2p_invest: '209e30',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -948,7 +948,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -956,7 +956,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'drez',
 		name: 'Drez',
@@ -965,7 +965,7 @@ const HeroData = readable([
 		faction: 'Mauler',
 		type: 'Agility',
 		tier: 'ascended',
-		f2p_invest: '209e60',
+		f2p_invest: '200e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
@@ -985,7 +985,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'kren',
 		name: 'Kren',
@@ -998,23 +998,23 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			3, // Campaign
-			0, // TRift
-			0, // TS
+			5, // TRift
+			1, // TS
 			0, // TR
 			5, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
 			3, // Campaign
-			0, // TRift
-			0, // TS
+			5, // TRift
+			1, // TS
 			0, // TR
 			5, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'thali',
 		name: 'Thali',
@@ -1043,7 +1043,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'granit',
 		name: 'Granit',
@@ -1072,7 +1072,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'thesku',
 		name: 'Thesku',
@@ -1101,7 +1101,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'alaro',
 		name: 'Alaro',
@@ -1114,7 +1114,7 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -1122,7 +1122,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -1130,7 +1130,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'anasta',
 		name: 'Anasta',
@@ -1142,24 +1142,24 @@ const HeroData = readable([
 		f2p_invest: '309e44',
 		p2p_invest: '309e68',
 		f2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			0, // TS
+			0, // Campaign
+			4, // TRift
+			3, // TS
 			0, // TR
 			4, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
-			5, // TRift
-			0, // TS
+			0, // Campaign
+			4, // TRift
+			3, // TS
 			0, // TR
 			4, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'brutus_aw',
 		name: 'Brutus (Awakened)',
@@ -1172,23 +1172,23 @@ const HeroData = readable([
 		p2p_invest: '3536e87',
 		f2p_chartData: [
 			2, // Campaign
-			2, // TRift
-			3, // TS
+			5, // TRift
+			5, // TS
 			0, // TR
 			5, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
 			2, // Campaign
-			2, // TRift
-			3, // TS
+			5, // TRift
+			5, // TS
 			0, // TR
 			5, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'salaki',
 		name: 'Salaki',
@@ -1217,7 +1217,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'Not fully tested.',
 	},
 	{ id: 'nemora',
 		name: 'Nemora',
@@ -1229,7 +1229,7 @@ const HeroData = readable([
 		f2p_invest: '159e0',
 		p2p_invest: '109e0',
 		f2p_chartData: [
-			4, // Campaign
+			2, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -1237,7 +1237,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			4, // Campaign
+			2, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -1246,7 +1246,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'kaz',
 		name: 'Kaz',
@@ -1275,7 +1275,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'lyca',
 		name: 'Lyca',
@@ -1287,24 +1287,24 @@ const HeroData = readable([
 		f2p_invest: '200e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
+			4, // Campaign
 			0, // TRift
-			0, // TS
+			5, // TS
 			0, // TR
 			1, // Tower
 			0, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
+			4, // Campaign
 			0, // TRift
-			0, // TS
+			5, // TS
 			0, // TR
 			1, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ulmus',
 		name: 'Ulmus',
@@ -1333,7 +1333,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'gorvo',
 		name: 'Gorvo',
@@ -1362,7 +1362,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'eironn',
 		name: 'Eironn',
@@ -1374,7 +1374,7 @@ const HeroData = readable([
 		f2p_invest: '203e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			4, // Campaign
+			5, // Campaign
 			0, // TRift
 			3, // TS
 			0, // TR
@@ -1382,7 +1382,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			4, // Campaign
+			5, // Campaign
 			0, // TRift
 			3, // TS
 			0, // TR
@@ -1391,7 +1391,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'tasi',
 		name: 'Tasi',
@@ -1408,7 +1408,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			0, // CR
+			1, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
@@ -1416,11 +1416,11 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			0, // CR
+			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'seirus',
 		name: 'Seirus',
@@ -1449,7 +1449,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'lorsan',
 		name: 'Lorsan',
@@ -1458,27 +1458,27 @@ const HeroData = readable([
 		faction: 'Wilder',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '200e0',
+		f2p_invest: '209e0',
 		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			0, // TS
+			3, // TRift
+			5, // TS
 			0, // TR
 			2, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			0, // TS
+			3, // TRift
+			5, // TS
 			0, // TR
 			2, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'solise',
 		name: 'Solise',
@@ -1507,7 +1507,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'saurus',
 		name: 'Saurus',
@@ -1520,23 +1520,23 @@ const HeroData = readable([
 		p2p_invest: '309e67',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			4, // TRift
 			0, // TS
 			3, // TR
 			4, // Tower
-			1, // CR
+			3, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			4, // TRift
 			0, // TS
 			3, // TR
 			4, // Tower
-			1, // CR
+			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'pippa',
 		name: 'Pippa',
@@ -1565,7 +1565,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'respen',
 		name: 'Respen',
@@ -1594,7 +1594,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'raku',
 		name: 'Raku',
@@ -1608,22 +1608,22 @@ const HeroData = readable([
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
-			2, // TS
+			4, // TS
 			0, // TR
 			5, // Tower
-			2, // CR
+			5, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
 			0, // TRift
-			2, // TS
+			4, // TS
 			0, // TR
 			5, // Tower
-			2, // CR
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'mishka',
 		name: 'Mishka',
@@ -1637,22 +1637,22 @@ const HeroData = readable([
 		f2p_chartData: [
 			5, // Campaign
 			5, // TRift
-			3, // TS
-			2, // TR
+			5, // TS
+			0, // TR
 			5, // Tower
 			4, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
 			5, // TRift
-			3, // TS
-			2, // TR
+			5, // TS
+			0, // TR
 			5, // Tower
 			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'astar',
 		name: 'Astar',
@@ -1665,23 +1665,23 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
-			4, // TRift
-			3, // TS
+			5, // TRift
+			4, // TS
 			0, // TR
 			3, // Tower
 			4, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
-			4, // TRift
-			3, // TS
+			5, // TRift
+			4, // TS
 			0, // TR
 			3, // Tower
 			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'oku',
 		name: 'Oku',
@@ -1710,7 +1710,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'eorin',
 		name: 'Eorin',
@@ -1724,22 +1724,22 @@ const HeroData = readable([
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
-			1, // TS
+			2, // TS
 			0, // TR
-			1, // Tower
+			2, // Tower
 			1, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
 			0, // TRift
-			1, // TS
+			2, // TS
 			0, // TR
-			1, // Tower
+			2, // Tower
 			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'solise_aw',
 		name: 'Solise (Awakened)',
@@ -1753,7 +1753,7 @@ const HeroData = readable([
 		f2p_chartData: [
 			2, // Campaign
 			5, // TRift
-			3, // TS
+			4, // TS
 			5, // TR
 			5, // Tower
 			4, // CR
@@ -1761,14 +1761,14 @@ const HeroData = readable([
 		p2p_chartData: [
 			2, // Campaign
 			5, // TRift
-			3, // TS
+			4, // TS
 			5, // TR
 			5, // Tower
 			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'nevanthi',
 		name: 'Nevanthi',
@@ -1780,24 +1780,24 @@ const HeroData = readable([
 		f2p_invest: '309e60',
 		p2p_invest: '309e62',
 		f2p_chartData: [
-			3, // Campaign
-			3, // TRift
+			2, // Campaign
+			4, // TRift
 			3, // TS
 			0, // TR
 			3, // Tower
-			3, // CR
+			4, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
-			3, // TRift
+			2, // Campaign
+			4, // TRift
 			3, // TS
 			0, // TR
 			3, // Tower
-			3, // CR
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'grezhul',
 		name: 'Grezhul',
@@ -1826,7 +1826,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'shemira',
 		name: 'Shemira',
@@ -1855,7 +1855,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'oden',
 		name: 'Oden',
@@ -1872,7 +1872,7 @@ const HeroData = readable([
 			5, // TS
 			3, // TR
 			5, // Tower
-			4, // CR
+			5, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
@@ -1880,11 +1880,11 @@ const HeroData = readable([
 			5, // TS
 			3, // TR
 			5, // Tower
-			4, // CR
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'isabella',
 		name: 'Isabella',
@@ -1893,7 +1893,7 @@ const HeroData = readable([
 		faction: 'Graveborn',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '000e0',
+		f2p_invest: '200e0',
 		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
@@ -1913,7 +1913,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ferael',
 		name: 'Ferael',
@@ -1926,23 +1926,23 @@ const HeroData = readable([
 		p2p_invest: '309e30',
 		f2p_chartData: [
 			4, // Campaign
-			0, // TRift
-			2, // TS
+			4, // TRift
+			5, // TS
 			0, // TR
-			3, // Tower
+			4, // Tower
 			1, // CR
 		],
 		p2p_chartData: [
 			4, // Campaign
-			0, // TRift
-			2, // TS
+			4, // TRift
+			5, // TS
 			0, // TR
-			3, // Tower
+			4, // Tower
 			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'thoran',
 		name: 'Thoran',
@@ -1955,7 +1955,7 @@ const HeroData = readable([
 		p2p_invest: '309e30',
 		f2p_chartData: [
 			5, // Campaign
-			0, // TRift
+			2, // TRift
 			1, // TS
 			0, // TR
 			5, // Tower
@@ -1963,7 +1963,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			5, // Campaign
-			0, // TRift
+			2, // TRift
 			1, // TS
 			0, // TR
 			5, // Tower
@@ -1971,7 +1971,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'kelthur',
 		name: 'Kelthur',
@@ -1983,7 +1983,7 @@ const HeroData = readable([
 		f2p_invest: '000e0',
 		p2p_invest: '209e0',
 		f2p_chartData: [
-			3, // Campaign
+			5, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -1991,7 +1991,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
+			5, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -2000,7 +2000,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'nara',
 		name: 'Nara',
@@ -2012,24 +2012,24 @@ const HeroData = readable([
 		f2p_invest: '150e0',
 		p2p_invest: '309e0',
 		f2p_chartData: [
-			1, // Campaign
+			3, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
-			1, // Tower
+			3, // Tower
 			0, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
+			3, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
-			1, // Tower
+			3, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'baden',
 		name: 'Baden',
@@ -2058,7 +2058,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'izold',
 		name: 'Izold',
@@ -2071,23 +2071,23 @@ const HeroData = readable([
 		p2p_invest: '309e41',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			3, // TRift
 			0, // TS
 			0, // TR
 			4, // Tower
-			0, // CR
+			3, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			3, // TRift
 			0, // TS
 			0, // TR
 			4, // Tower
-			0, // CR
+			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'torne',
 		name: 'Torne',
@@ -2116,7 +2116,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'daimon',
 		name: 'Daimon',
@@ -2129,23 +2129,23 @@ const HeroData = readable([
 		p2p_invest: '309e61',
 		f2p_chartData: [
 			3, // Campaign
-			2, // TRift
-			0, // TS
+			3, // TRift
+			1, // TS
 			0, // TR
 			3, // Tower
-			1, // CR
+			3, // CR
 		],
 		p2p_chartData: [
 			3, // Campaign
-			2, // TRift
-			0, // TS
+			3, // TRift
+			1, // TS
 			0, // TR
 			3, // Tower
-			1, // CR
+			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'theowyn',
 		name: 'Theowyn',
@@ -2174,7 +2174,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'silas',
 		name: 'Silas',
@@ -2187,23 +2187,23 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			5, // Campaign
-			4, // TRift
-			4, // TS
+			5, // TRift
+			5, // TS
 			3, // TR
 			5, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
-			4, // TRift
-			4, // TS
+			5, // TRift
+			5, // TS
 			3, // TR
 			5, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'desira',
 		name: 'Desira',
@@ -2216,23 +2216,23 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			1, // Campaign
-			3, // TRift
+			5, // TRift
 			1, // TS
 			0, // TR
 			3, // Tower
-			1, // CR
+			0, // CR
 		],
 		p2p_chartData: [
 			1, // Campaign
-			3, // TRift
+			5, // TRift
 			1, // TS
 			0, // TR
 			3, // Tower
-			1, // CR
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'hodgkin',
 		name: 'Hodgkin',
@@ -2244,24 +2244,24 @@ const HeroData = readable([
 		f2p_invest: '209e33',
 		p2p_invest: '309e61',
 		f2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			3, // TRift
-			1, // TS
+			2, // TS
 			4, // TR
 			2, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			3, // TRift
-			1, // TS
+			2, // TS
 			4, // TR
 			2, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'treznor',
 		name: 'Treznor',
@@ -2274,7 +2274,7 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			3, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -2282,7 +2282,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			3, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -2290,7 +2290,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'fane',
 		name: 'Fane',
@@ -2319,7 +2319,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'kalene',
 		name: 'Kalene',
@@ -2333,7 +2333,7 @@ const HeroData = readable([
 		f2p_chartData: [
 			0, // Campaign
 			0, // TRift
-			1, // TS
+			0, // TS
 			0, // TR
 			1, // Tower
 			0, // CR
@@ -2341,14 +2341,14 @@ const HeroData = readable([
 		p2p_chartData: [
 			0, // Campaign
 			0, // TRift
-			1, // TS
+			0, // TS
 			0, // TR
 			1, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'baden_aw',
 		name: 'Baden (Awakened)',
@@ -2361,7 +2361,7 @@ const HeroData = readable([
 		p2p_invest: '3536e87',
 		f2p_chartData: [
 			1, // Campaign
-			1, // TRift
+			5, // TRift
 			3, // TS
 			5, // TR
 			5, // Tower
@@ -2369,7 +2369,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			1, // Campaign
-			1, // TRift
+			5, // TRift
 			3, // TS
 			5, // TR
 			5, // Tower
@@ -2377,7 +2377,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'athalia',
 		name: 'Athalia',
@@ -2390,7 +2390,7 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			1, // Campaign
-			0, // TRift
+			3, // TRift
 			4, // TS
 			0, // TR
 			5, // Tower
@@ -2398,7 +2398,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			1, // Campaign
-			0, // TRift
+			3, // TRift
 			4, // TS
 			0, // TR
 			5, // Tower
@@ -2406,7 +2406,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'twins',
 		name: 'Elijah & Lailah',
@@ -2415,27 +2415,27 @@ const HeroData = readable([
 		faction: 'Celestial',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '209e33',
+		f2p_invest: '203e33',
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
-			3, // TS
+			4, // TRift
+			4, // TS
 			5, // TR
 			1, // Tower
 			3, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
-			3, // TS
+			4, // TRift
+			4, // TS
 			5, // TR
 			1, // Tower
 			3, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'flora',
 		name: 'Flora',
@@ -2448,7 +2448,7 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			1, // Campaign
-			0, // TRift
+			1, // TRift
 			2, // TS
 			0, // TR
 			1, // Tower
@@ -2456,7 +2456,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			1, // Campaign
-			0, // TRift
+			1, // TRift
 			2, // TS
 			0, // TR
 			1, // Tower
@@ -2464,7 +2464,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'orthros',
 		name: 'Orthros',
@@ -2493,7 +2493,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'talene',
 		name: 'Talene',
@@ -2506,7 +2506,7 @@ const HeroData = readable([
 		p2p_invest: '309e87',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			5, // TRift
 			2, // TS
 			1, // TR
 			5, // Tower
@@ -2514,7 +2514,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			5, // TRift
 			2, // TS
 			1, // TR
 			5, // Tower
@@ -2522,7 +2522,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'wukong',
 		name: 'Wu Kong',
@@ -2551,7 +2551,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'zaphrael',
 		name: 'Zaphrael',
@@ -2580,7 +2580,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'alna',
 		name: 'Alna',
@@ -2593,23 +2593,23 @@ const HeroData = readable([
 		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			4, // TS
+			5, // TRift
+			5, // TS
 			0, // TR
 			3, // Tower
 			0, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			4, // TS
+			5, // TRift
+			5, // TS
 			0, // TR
 			3, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'morael',
 		name: 'Morael',
@@ -2638,7 +2638,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'titus',
 		name: 'Titus',
@@ -2667,7 +2667,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'haelus',
 		name: 'Haelus',
@@ -2679,24 +2679,24 @@ const HeroData = readable([
 		f2p_invest: '309e60',
 		p2p_invest: '309e61',
 		f2p_chartData: [
-			3, // Campaign
-			1, // TRift
-			3, // TS
+			1, // Campaign
+			5, // TRift
+			4, // TS
 			3, // TR
 			3, // Tower
 			5, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
-			1, // TRift
-			3, // TS
+			1, // Campaign
+			5, // TRift
+			4, // TS
 			3, // TR
 			3, // Tower
 			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'talene_aw',
 		name: 'Talene (Awakened)',
@@ -2705,27 +2705,27 @@ const HeroData = readable([
 		faction: 'Celestial',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e60',
+		f2p_invest: '309e0',
 		p2p_invest: '3536e87',
 		f2p_chartData: [
-			1, // Campaign
+			3, // Campaign
 			5, // TRift
-			1, // TS
+			3, // TS
 			2, // TR
 			5, // Tower
 			2, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
+			3, // Campaign
 			5, // TRift
-			1, // TS
+			3, // TS
 			2, // TR
 			5, // Tower
 			2, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'audrae',
 		name: 'Audrae',
@@ -2754,7 +2754,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'tarnos',
 		name: 'Tarnos',
@@ -2783,7 +2783,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ezizh',
 		name: 'Ezizh',
@@ -2795,24 +2795,24 @@ const HeroData = readable([
 		f2p_invest: '309e30',
 		p2p_invest: '309e62',
 		f2p_chartData: [
-			3, // Campaign
-			0, // TRift
-			2, // TS
+			5, // Campaign
+			4, // TRift
+			4, // TS
 			2, // TR
 			1, // Tower
 			1, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
-			0, // TRift
-			2, // TS
+			5, // Campaign
+			4, // TRift
+			4, // TS
 			2, // TR
 			1, // Tower
 			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'mehira',
 		name: 'Mehira',
@@ -2821,7 +2821,7 @@ const HeroData = readable([
 		faction: 'Hypogean',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '300e0',
+		f2p_invest: '000e0',
 		p2p_invest: '309e33',
 		f2p_chartData: [
 			5, // Campaign
@@ -2841,7 +2841,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'zolrath',
 		name: 'Zolrath',
@@ -2853,24 +2853,24 @@ const HeroData = readable([
 		f2p_invest: '303e41',
 		p2p_invest: '3536e87',
 		f2p_chartData: [
-			4, // Campaign
-			0, // TRift
-			2, // TS
+			5, // Campaign
+			3, // TRift
+			4, // TS
 			0, // TR
 			3, // Tower
 			0, // CR
 		],
 		p2p_chartData: [
-			4, // Campaign
-			0, // TRift
-			2, // TS
+			5, // Campaign
+			3, // TRift
+			4, // TS
 			0, // TR
 			3, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'khazard',
 		name: 'Khazard',
@@ -2887,7 +2887,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			0, // CR
+			4, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
@@ -2895,11 +2895,11 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			1, // Tower
-			0, // CR
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'mezoth',
 		name: 'Mezoth',
@@ -2928,7 +2928,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'lucretia',
 		name: 'Lucretia',
@@ -2941,23 +2941,23 @@ const HeroData = readable([
 		p2p_invest: '3536e87',
 		f2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			4, // TS
+			5, // TRift
+			5, // TS
 			2, // TR
 			5, // Tower
-			1, // CR
+			4, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
-			0, // TRift
-			4, // TS
+			5, // TRift
+			5, // TS
 			2, // TR
 			5, // Tower
-			1, // CR
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'mortas',
 		name: 'Mortas',
@@ -2969,24 +2969,24 @@ const HeroData = readable([
 		f2p_invest: '200e0',
 		p2p_invest: '309e61',
 		f2p_chartData: [
-			4, // Campaign
+			5, // Campaign
 			4, // TRift
-			0, // TS
+			4, // TS
 			4, // TR
 			1, // Tower
 			4, // CR
 		],
 		p2p_chartData: [
-			4, // Campaign
+			5, // Campaign
 			4, // TRift
-			0, // TS
+			4, // TS
 			4, // TR
 			1, // Tower
 			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'leofric',
 		name: 'Leofric',
@@ -3015,7 +3015,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'zikis',
 		name: 'Zikis',
@@ -3044,7 +3044,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'framton',
 		name: 'Framton',
@@ -3073,7 +3073,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ezizh_aw',
 		name: 'Ezizh (Awakened)',
@@ -3082,10 +3082,10 @@ const HeroData = readable([
 		faction: 'Hypogean',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e60',
+		f2p_invest: '000e0',
 		p2p_invest: '3536e87',
 		f2p_chartData: [
-			3, // Campaign
+			4, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -3093,7 +3093,7 @@ const HeroData = readable([
 			0, // CR
 		],
 		p2p_chartData: [
-			3, // Campaign
+			4, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -3102,7 +3102,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'vyloris',
 		name: 'Vyloris',
@@ -3131,7 +3131,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'canisa_ruke',
 		name: 'Canisa & Ruke',
@@ -3160,7 +3160,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'arthur',
 		name: 'Arthur',
@@ -3174,7 +3174,7 @@ const HeroData = readable([
 		f2p_chartData: [
 			3, // Campaign
 			3, // TRift
-			1, // TS
+			3, // TS
 			0, // TR
 			1, // Tower
 			0, // CR
@@ -3182,14 +3182,14 @@ const HeroData = readable([
 		p2p_chartData: [
 			3, // Campaign
 			3, // TRift
-			1, // TS
+			3, // TS
 			0, // TR
 			1, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'nakoruru',
 		name: 'Nakoruru',
@@ -3218,7 +3218,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ukyo',
 		name: 'Ukyo',
@@ -3247,7 +3247,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ezio',
 		name: 'Ezio',
@@ -3276,7 +3276,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'ainz',
 		name: 'Ainz Ooal Gown',
@@ -3288,24 +3288,24 @@ const HeroData = readable([
 		f2p_invest: '309e41',
 		p2p_invest: '3536e87',
 		f2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			5, // TRift
 			5, // TS
 			0, // TR
-			3, // Tower
-			2, // CR
+			4, // Tower
+			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			5, // TRift
 			5, // TS
 			0, // TR
-			3, // Tower
-			2, // CR
+			4, // Tower
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'albedo',
 		name: 'Albedo',
@@ -3314,27 +3314,27 @@ const HeroData = readable([
 		faction: 'Dimensional',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '303e30',
+		f2p_invest: '303e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			5, // TRift
 			5, // TS
 			0, // TR
-			3, // Tower
-			2, // CR
+			4, // Tower
+			4, // CR
 		],
 		p2p_chartData: [
-			2, // Campaign
+			3, // Campaign
 			5, // TRift
 			5, // TS
 			0, // TR
-			3, // Tower
-			2, // CR
+			4, // Tower
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'joker',
 		name: 'JOKER',
@@ -3363,7 +3363,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'queen',
 		name: 'QUEEN',
@@ -3380,7 +3380,7 @@ const HeroData = readable([
 			1, // TS
 			0, // TR
 			3, // Tower
-			2, // CR
+			4, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
@@ -3388,11 +3388,11 @@ const HeroData = readable([
 			1, // TS
 			0, // TR
 			3, // Tower
-			2, // CR
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'prince',
 		name: 'Prince of Persia',
@@ -3404,7 +3404,7 @@ const HeroData = readable([
 		f2p_invest: '203e0',
 		p2p_invest: '309e30',
 		f2p_chartData: [
-			1, // Campaign
+			3, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -3412,7 +3412,7 @@ const HeroData = readable([
 			1, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
+			3, // Campaign
 			0, // TRift
 			0, // TS
 			0, // TR
@@ -3421,7 +3421,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'merlin',
 		name: 'Merlin',
@@ -3433,24 +3433,24 @@ const HeroData = readable([
 		f2p_invest: '309e0',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			1, // Campaign
-			3, // TRift
-			3, // TS
+			3, // Campaign
+			5, // TRift
+			5, // TS
 			0, // TR
 			2, // Tower
 			1, // CR
 		],
 		p2p_chartData: [
-			1, // Campaign
-			3, // TRift
-			3, // TS
+			3, // Campaign
+			5, // TRift
+			5, // TS
 			0, // TR
 			2, // Tower
 			1, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'leonardo',
 		name: 'Leonardo Da Vinci',
@@ -3464,22 +3464,22 @@ const HeroData = readable([
 		f2p_chartData: [
 			5, // Campaign
 			0, // TRift
-			2, // TS
+			3, // TS
 			0, // TR
 			2, // Tower
-			4, // CR
+			5, // CR
 		],
 		p2p_chartData: [
 			5, // Campaign
 			0, // TRift
-			2, // TS
+			3, // TS
 			0, // TR
 			2, // Tower
-			4, // CR
+			5, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'melusina',
 		name: 'Melusina',
@@ -3496,7 +3496,7 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			0, // Tower
-			1, // CR
+			0, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
@@ -3504,11 +3504,11 @@ const HeroData = readable([
 			0, // TS
 			0, // TR
 			0, // Tower
-			1, // CR
+			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'joa',
 		name: 'Joan of Arc',
@@ -3525,7 +3525,7 @@ const HeroData = readable([
 			4, // TS
 			0, // TR
 			0, // Tower
-			3, // CR
+			4, // CR
 		],
 		p2p_chartData: [
 			0, // Campaign
@@ -3533,11 +3533,11 @@ const HeroData = readable([
 			4, // TS
 			0, // TR
 			0, // Tower
-			3, // CR
+			4, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'None',
 	},
 	{ id: 'yennefer',
 		name: 'Yennefer',
@@ -3549,24 +3549,24 @@ const HeroData = readable([
 		f2p_invest: '303e60',
 		p2p_invest: '309e60',
 		f2p_chartData: [
-			0, // Campaign
-			0, // TRift
-			3, // TS
+			3, // Campaign
+			4, // TRift
+			4, // TS
 			0, // TR
 			0, // Tower
 			0, // CR
 		],
 		p2p_chartData: [
-			0, // Campaign
-			0, // TRift
-			3, // TS
+			3, // Campaign
+			4, // TRift
+			4, // TS
 			0, // TR
 			0, // Tower
 			0, // CR
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'Not fully tested.',
 	},
 	{ id: 'geralt',
 		name: 'Geralt',
@@ -3579,7 +3579,7 @@ const HeroData = readable([
 		p2p_invest: '309e60',
 		f2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -3587,7 +3587,7 @@ const HeroData = readable([
 		],
 		p2p_chartData: [
 			0, // Campaign
-			0, // TRift
+			2, // TRift
 			0, // TS
 			0, // TR
 			0, // Tower
@@ -3595,7 +3595,7 @@ const HeroData = readable([
 		],
 		getF2PScore: function() { return this.f2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
 		getP2PScore: function() { return this.p2p_chartData.reduce((partialSum, a) => partialSum + a, 0) },
-		notes: 'example notes',
+		notes: 'Not fully tested.',
 	},
 ]);
 
