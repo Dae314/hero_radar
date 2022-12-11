@@ -14,10 +14,10 @@
 		{ name: 'Dimensional', icon: './img/factions/dimensional.png' },
 	];
 
-	const version = 'v1.103';
+	const version = 'v1.104';
 	let curView = 'All';
 	let curType = 'f2p';
-	let curSort = 'name';
+	let curSort = 'score';
 
 	$: heroList = $HeroData.filter(hero => curView === 'All' || hero.faction === curView).sort((a, b) => {
 		if(curSort === 'name') {
@@ -75,12 +75,12 @@
 	</nav>
 	<div class="optionsArea">
 		<div class="optionSect sortSwitcher">
-			<button type="button" class="switchButton" on:click={() => curSort = 'name'}>Sort Name</button>
-			<button type="button" class="switchButton" on:click={() => curSort = 'score'}>Sort Score</button>
+			<button type="button" class="switchButton" class:selected={curSort === 'name'} on:click={() => curSort = 'name'}>Sort Name</button>
+			<button type="button" class="switchButton" class:selected={curSort === 'score'} on:click={() => curSort = 'score'}>Sort Score</button>
 		</div>
 		<div class="optionSect typeSwitcher">
-			<button type="button" class="switchButton" on:click={() => curType = 'f2p'}>F2P</button>
-			<button type="button" class="switchButton" on:click={() => curType = 'p2p'}>Whale</button>
+			<button type="button" class="switchButton" class:selected={curType === 'f2p'} on:click={() => curType = 'f2p'}>F2P</button>
+			<button type="button" class="switchButton" class:selected={curType === 'p2p'} on:click={() => curType = 'p2p'}>Whale</button>
 		</div>
 	</div>
 	<div class="titleArea">
@@ -99,6 +99,9 @@
 			{/if}
 			<h2>{version}</h2>
 		{/if}
+		<div class="disclaimerArea">
+			<p class="disclaimer">Disclaimer: All values are the opinion of the guide writers and do not represent a universally "correct" value. All investment values represent the investment required to realize the usefulness values for a specific hero, and do not consititute a minimum investment or "benchmark" for the hero.</p>
+		</div>
 	</div>
 	<div class="heroDisplay">
 		{#each heroList as hero}
@@ -189,6 +192,10 @@
 			font-weight: bold;
 			padding: 5px;
 			transition: all 0.2s;
+			&.selected {
+				background-color: var(--appColorPrimary);
+				color: var(--appColorWhite);
+			}
 			&:hover {
 				background-color: var(--appColorPrimary);
 				color: var(--appColorWhite);
@@ -209,7 +216,15 @@
 		}
 		h2 {
 			margin: 0px;
-			margin-bottom: 20px;
+		}
+		.disclaimerArea {
+			margin: 10px 0px 50px 0px;
+			width: 40%;
+			.disclaimer {
+				font-size: 0.65rem;
+				margin: 0px;
+				text-align: center;
+			}
 		}
 	}
 
