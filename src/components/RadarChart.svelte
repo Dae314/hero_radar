@@ -17,7 +17,7 @@
 		],
 		datasets: [{
 			label: name,
-			data: data.map(e => e === 0 ? 0.5 : e),
+			data: data.map(e => e === 0 ? 0.25 : e),
 			fill: true,
 			backgroundColor: window.getComputedStyle(document.documentElement).getPropertyValue('--appColorPriAlpha'),
 			borderColor: window.getComputedStyle(document.documentElement).getPropertyValue('--appColorPrimary'),
