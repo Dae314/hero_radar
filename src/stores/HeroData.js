@@ -501,7 +501,7 @@ const HeroData = readable([
 		faction: 'Lightbearer',
 		type: 'Intelligence',
 		tier: 'ascended',
-		f2p_invest: '309e44',
+		f2p_invest: '309e60',
 		p2p_invest: '309e67',
 		f2p_chartData: [
 			4, // Campaign
@@ -1806,7 +1806,7 @@ const HeroData = readable([
 		faction: 'Graveborn',
 		type: 'Strength',
 		tier: 'ascended',
-		f2p_invest: '209e41',
+		f2p_invest: '209e60',
 		p2p_invest: '309e67',
 		f2p_chartData: [
 			5, // Campaign
