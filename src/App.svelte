@@ -86,16 +86,16 @@
 	<div class="titleArea">
 		{#if curType === 'f2p'}
 			{#if curView === 'All'}
-				<h1>Hero Usefulness for F2P</h1>
+				<h1>Hero Usefulness Tier List for F2P</h1>
 			{:else}
-				<h1>{curView} Usefulness for F2P</h1>
+				<h1>{curView} Usefulness Tier List for F2P</h1>
 			{/if}
 			<h2>{version}</h2>
 		{:else}
 			{#if curView === 'All'}
-				<h1>Hero Usefulness for Whale</h1>
+				<h1>Hero Usefulness Tier List for Whale</h1>
 			{:else}
-				<h1>{curView} Usefulness for Whale</h1>
+				<h1>{curView} Usefulness Tier List for Whale</h1>
 			{/if}
 			<h2>{version}</h2>
 		{/if}
